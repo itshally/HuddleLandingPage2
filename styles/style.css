@@ -7,7 +7,6 @@ html body {
   padding: 0;
   margin: 0 auto;
   width: 100%;
-  max-width: 1440px;
   height: 100%;
   font-family: "Open Sans", sans-serif;
 }
@@ -29,6 +28,7 @@ html body input[type=button] {
 html body .header {
   background-image: url(../images/bg-hero-desktop.svg);
   background-color: #ebfbff;
+  background-size: contain;
   padding: 3rem 10rem;
 }
 
@@ -38,8 +38,10 @@ html body .header .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
 }
 
 html body .header .navbar {
@@ -49,8 +51,8 @@ html body .header .navbar {
 html body .header .navbar img {
   height: 100%;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 html body .header .navbar input[type=button] {
@@ -64,11 +66,11 @@ html body .header .container {
 html body .header .container .left,
 html body .header .container .right {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 html body .header .container .left {
@@ -103,14 +105,14 @@ html body .about {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-flow: column;
-  flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 
@@ -120,10 +122,10 @@ html body .about .box {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   width: 70%;
   margin: 1.5rem auto;
   padding: 2.5rem 5rem;
@@ -131,8 +133,8 @@ html body .about .box {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 html body .about .box .left {
@@ -153,8 +155,8 @@ html body .about .box .right img {
 html body .about .box:nth-child(2) {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 html body .about .box:nth-child(2) .right {
@@ -167,12 +169,12 @@ html body .about .box:last-child {
   width: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-flow: column;
-  flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   position: absolute;
   bottom: -15%;
   -webkit-transform: translateY(15%);
-  transform: translateY(15%);
+          transform: translateY(15%);
 }
 
 html body .about .box:last-child input[type=button] {
@@ -199,8 +201,8 @@ html body .footer .row {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 html body .footer .row .col:first-child {
@@ -213,10 +215,10 @@ html body .footer .row .col {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-flow: column;
-  flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   margin-right: 1rem;
   width: auto;
   line-height: 2;
@@ -229,15 +231,15 @@ html body .footer .row .col .info {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row;
-  flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
   margin: 1rem 0;
   padding: 0;
 }
 
 html body .footer .row .col .info img {
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 22px;
   width: 22px;
   margin: 0;
@@ -259,15 +261,15 @@ html body .footer .row .col a:hover {
 
 html body .footer .row .col:last-child {
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 html body .footer .row .col:last-child .social-media {
   font-size: 18px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 html body .footer .row .col:last-child .social-media i {
@@ -277,5 +279,4 @@ html body .footer .row .col:last-child .social-media i {
   border: 1px solid #FFFFFF;
   margin-right: 8px;
 }
-
 /*# sourceMappingURL=style.css.map */
