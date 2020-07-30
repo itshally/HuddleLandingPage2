@@ -16,12 +16,6 @@
   <script src="https://kit.fontawesome.com/39d0e3f084.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="styles/style.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
@@ -69,11 +63,13 @@
     <!-- flowing conversation -->
     <div class="box">
       <div class="left">
-        <h2>Flowing Conversations</h2>
-        <p>
-          You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-          have just-in-time loading for a more natural flow.
-        </p>
+        <div class="container">
+          <h2>Flowing Conversations</h2>
+          <p>
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+            have just-in-time loading for a more natural flow.
+          </p>
+        </div>
       </div>
       <div class="right">
         <img src="./images/illustration-flowing-conversation.svg" alt="flowing conversation illustrator">
@@ -108,21 +104,21 @@
 
       <!-- first column -->
       <div class="col">
-        <img src="./images/logo.svg" alt="Huddle logo">
+        <img src="./images/logo.svg" class="footer-logo" alt="Huddle logo">
 
         <div class="info">
-          <img src="./images/icon-location.svg" alt="location icon">
+          <img src="./images/icon-location.svg" class="info-icon" alt="location icon">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua</p>
         </div>
 
         <div class="info">
-          <img src="./images/icon-phone.svg" alt="phone icon">
+          <img src="./images/icon-phone.svg" class="info-icon" alt="phone icon">
           <p>+1-543-123-4567</p>
         </div>
 
         <div class="info">
-          <img src="./images/icon-email.svg" alt="email icon">
+          <img src="./images/icon-email.svg" class="info-icon" alt="email icon">
           <p>example@huddle.com</p>
         </div>
 
@@ -156,16 +152,13 @@
 
     </div>
 
+    <!-- footer -->
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
   </div>
-  
-
-
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>
