@@ -463,10 +463,11 @@ html body .footer footer a:hover {
   html body .about .box .left img,
   html body .about .box .right img {
     min-width: 15rem;
+    height: 100%;
     width: 80% !important;
     max-width: 22.5rem;
     margin: auto;
-    padding: 1.5rem 0 !important;
+    padding: 0.5rem 0 !important;
   }
   html body .about .box .left {
     width: 90.5% !important;
