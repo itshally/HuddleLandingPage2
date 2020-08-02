@@ -40,8 +40,8 @@ html body .header .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 90% !important;
   max-width: 1440px;
   margin: 0 auto;
@@ -51,8 +51,8 @@ html body .header .container {
 html body .header .navbar img {
   height: 100%;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 html body .header .navbar input[type=button] {
@@ -66,11 +66,11 @@ html body .header .container {
 html body .header .container .left,
 html body .header .container .right {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 html body .header .container .left {
@@ -112,14 +112,14 @@ html body .about {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-flow: column;
-  flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 
@@ -129,10 +129,10 @@ html body .about .box {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   width: 95%;
   max-width: 1440px;
   margin: 1.5rem auto;
@@ -141,8 +141,8 @@ html body .about .box {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.22);
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 html body .about .box .left,
@@ -175,8 +175,8 @@ html body .about .box .right img {
 html body .about .box .left {
   padding: 2.5rem 5rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 html body .about .box .right {
@@ -185,8 +185,8 @@ html body .about .box .right {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 html body .about .box:last-child {
@@ -195,8 +195,8 @@ html body .about .box:last-child {
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-flow: column;
-  flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   padding: 5rem 5rem;
   margin: 5rem auto;
   margin-bottom: -15rem;
@@ -228,8 +228,8 @@ html body .footer .row {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -252,10 +252,10 @@ html body .footer .row .col {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-flow: column;
-  flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   margin-right: 1rem;
   width: auto;
   line-height: 2;
@@ -268,15 +268,15 @@ html body .footer .row .col .info {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-flow: row;
-  flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
   margin: 1rem 0;
   padding: 0;
 }
 
 html body .footer .row .col .info .info-icon {
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   height: 16px;
   width: 17px;
   margin: 0;
@@ -301,15 +301,15 @@ html body .footer .row .col a:hover {
 
 html body .footer .row .col:last-child {
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 html body .footer .row .col:last-child .social-media {
   font-size: 18px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 html body .footer .row .col:last-child .social-media i {
@@ -346,19 +346,16 @@ html body .footer footer a:hover {
   }
 }
 
-@media screen and (max-width: 1000px),
-(max-width: 650px) {
+@media screen and (max-width: 1000px), (max-width: 650px) {
   html body input[type=button] {
     padding: 1rem 2.5rem;
     font-weight: 700;
   }
-
   html body .header {
     background-image: url(../images/bg-hero-mobile.svg);
     width: auto;
     padding: 1rem 1rem;
   }
-
   html body .header .navbar,
   html body .header .container {
     display: -webkit-box;
@@ -367,173 +364,149 @@ html body .footer footer a:hover {
     margin: 0.5rem auto;
     padding: 1.5rem 1rem !important;
   }
-
   html body .header .navbar img {
     height: 20px;
   }
-
   html body .header .navbar input[type=button] {
     font-size: 11px;
     padding: 0.5rem 1.5rem;
   }
-
   html body .header .container {
     padding: 2.5rem 0;
     width: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
-
   html body .header .container .left,
   html body .header .container .right {
     width: auto;
   }
-
   html body .header .container .left {
     padding-right: 0rem;
     width: 100%;
     text-align: center;
   }
-
   html body .header .container .left h1,
   html body .header .container .left p {
     margin: 8px auto;
   }
-
   html body .header .container .left h1 {
     width: 95%;
     font-size: 1.5rem !important;
   }
-
   html body .header .container .left p {
     width: 100%;
     font-size: 16.5px;
   }
-
   html body .header .container .left input[type=button] {
     margin: 1.5rem auto;
   }
-
   html body .header .container .right {
     width: 100%;
     padding-left: 0rem;
   }
-
   html body .header .container .right img {
     width: 100%;
     margin: 1rem auto;
   }
-
   html body .about {
     width: auto;
     padding: 1rem;
     margin: 0 auto;
     position: relative;
   }
-
   html body .about .box {
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
     width: auto !important;
     margin: 1.5rem auto;
-    padding: 2.5rem 2rem !important;
+    padding: 1.5rem 1.5rem !important;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     line-height: 1.5;
   }
-
   html body .about .box .left,
   html body .about .box .right {
     width: auto !important;
     text-align: center;
     margin: auto;
   }
-
   html body .about .box .left h2,
   html body .about .box .left p,
   html body .about .box .right h2,
   html body .about .box .right p {
     margin: 0 auto;
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     padding: 0;
   }
-
   html body .about .box .left h2,
   html body .about .box .right h2 {
     width: 100%;
     padding-bottom: 1.5rem;
     font-size: 1.3rem;
   }
-
   html body .about .box .left p,
   html body .about .box .right p {
     width: 95% !important;
     font-size: 15px;
   }
-
   html body .about .box .left img,
   html body .about .box .right img {
     min-width: 15rem;
-    width: 85% !important;
-    max-width: 25rem;
+    width: 80% !important;
+    max-width: 22.5rem;
     margin: auto;
     padding: 1.5rem 0 !important;
   }
-
   html body .about .box .left {
     width: 90.5% !important;
     padding: 1.5rem 0;
     padding-left: 0rem;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
+        -ms-flex-order: 2;
+            order: 2;
   }
-
   html body .about .box .right {
     padding: 0;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
-
   html body .about .box:nth-child(2) {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
-
   html body .about .box:last-child {
     width: 95% !important;
     padding: 1.5rem 0rem !important;
     margin-left: 0;
     margin-right: 0;
   }
-
   html body .about .box:last-child h2 {
     padding: 0 1.5rem !important;
     font-size: 1rem;
   }
-
   html body .footer {
     width: auto !important;
     padding: 5rem 3.5rem;
@@ -541,53 +514,43 @@ html body .footer footer a:hover {
     padding-top: 10rem;
     margin-top: 10rem;
   }
-
   html body .footer .row {
     width: 100%;
   }
-
   html body .footer .row .col:first-child {
     width: auto !important;
     max-width: 15rem;
   }
-
   html body .footer .row .col:first-child .footer-logo {
     min-width: 7rem;
     max-width: 10rem;
   }
-
   html body .footer .row .col {
     margin-right: 1rem;
     font-size: 15px !important;
   }
-
   html body .footer .row .col .info .info-icon {
     height: 14px;
     width: 15px;
     margin-right: 0.5rem;
   }
-
   html body .footer .row .col .info p {
     max-width: 30rem;
     font-size: 14px;
   }
-
   html body .footer .row .col:last-child .copyright {
     font-size: 10px;
   }
-
   html body .footer footer {
     margin-bottom: 0;
     text-align: center;
     font-size: 9pt;
     letter-spacing: 0.5px;
   }
-
   html body .footer footer a {
     text-decoration: none;
     color: #ff52bf;
   }
-
   html body .footer footer a:hover {
     color: #808d99;
   }
@@ -598,39 +561,31 @@ html body .footer footer a:hover {
     padding: 8rem 1.5rem !important;
     padding-bottom: 1rem !important;
   }
-
   .footer .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
   }
-
   .footer .row .col:first-child {
     padding-bottom: 2rem;
     max-width: 100% !important;
   }
-
   .footer .row .col:first-child .info {
     margin: 5px 0;
   }
-
   .footer .row .col:first-child .info .info-icon {
     margin-right: 1.3rem;
   }
-
   .footer .row .col:first-child .info p {
     font-size: 15px;
   }
-
   .footer .row .col:last-child {
     padding-top: 2.5rem;
     text-align: center;
   }
-
   .footer .row .col:last-child .copyright {
     font-size: 12px !important;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
