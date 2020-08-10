@@ -16,6 +16,7 @@
   <script src="https://kit.fontawesome.com/39d0e3f084.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="styles/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -29,7 +30,7 @@
     </div>
 
     <div class="container">
-      <div class="left">
+      <div class="left" data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">
         <h1>Build The Community Your Fans Will Love</h1>
         <p>
           Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
@@ -47,7 +48,7 @@
   <div class="about">
 
     <!-- grow together -->
-    <div class="box">
+    <div class="box" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">
       <div class="left">
         <h2>Grow Together</h2>
         <p>
@@ -61,7 +62,7 @@
     </div>
 
     <!-- flowing conversation -->
-    <div class="box">
+    <div class="box" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">
       <div class="left">
         <img src="./images/illustration-flowing-conversation.svg" alt="flowing conversation illustrator">
       </div>
@@ -77,7 +78,7 @@
     </div>
 
     <!-- your users -->
-    <div class="box">
+    <div class="box" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">
       <div class="left">
         <h2>Your Users</h2>
         <p>
@@ -90,7 +91,7 @@
       </div>
     </div>
 
-    <div class="box">
+    <div class="box" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="1000">
       <h2>Ready To Build Your Community?</h2>
 
       <a href="#" class="link-btn">Get Started For Free</a>
@@ -161,4 +162,11 @@
     </footer>
   </div>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,
+    anchorPlacement: 'top-bottom'
+  });
+</script>
 </html>
